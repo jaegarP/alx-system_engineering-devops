@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -printf '%Tc\t%f\n' | sort -r | cut -f2 | head -n10
+ls -t1 | head -n 10
